@@ -25,7 +25,7 @@ const Hero = () => {
             Discover Your Ideal Property Today!
           </h1>
 
-          <h1 className="text-[30px] text-center 640p:text-left 640p:text-[70px] 640p:w-[50%] font-semibold tracking-wide text-background leading-snug">
+          <h1 className="text-[30px] text-center 640p:text-left 640p:text-[70px] 1080p:w-[50%] 640p:w-[70%] font-semibold tracking-wide text-background leading-snug">
             Elegant Homes For Elevated Lifestyles
           </h1>
 
