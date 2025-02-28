@@ -1,33 +1,19 @@
 "use client";
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { navDropdownData } from "@/lib/data";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@radix-ui/react-dropdown-menu";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
 import { BiSearch } from "react-icons/bi";
-import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { IoIosArrowDown, IoMdMail } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 import { RiArrowRightUpFill } from "react-icons/ri";
-import { Button } from "./ui/button";
 import Logo from "./Logo";
-import { countries, navDropdownData } from "@/lib/data";
+import { Button } from "./ui/button";
 
 const Navbar = () => {
-  // State to manage selected country in dropdown
-  const [selectedCountry, setSelectedCountry] = useState(countries[0].name);
-
   return (
     <nav className="320p:hidden 640p:block">
       <div className="flex justify-center">
