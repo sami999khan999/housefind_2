@@ -31,7 +31,7 @@ const Hero = () => {
 
           {/* Action buttons: Find Dream Home and View Listings */}
           <div className="flex flex-col gap-3 640p:flex-row mb-5">
-            <Button className="text-primary-foreground text-base px-5 py-7 hover:bg-primary-foreground rounded-">
+            <Button className="text-primary-foreground text-base px-5 py-7 hover:bg-primary-foreground hover:text-foreground">
               Find Your Dream Home Now <RiArrowRightUpFill size={20} />
             </Button>
           </div>
@@ -96,7 +96,7 @@ const Hero = () => {
 
               {/* Search button */}
               <div className="mt-auto flex-1">
-                <Button className="text-secondary-foreground w-full py-6 hover:bg-primary-foreground text-lg">
+                <Button className="text-primary-foreground w-full py-6 hover:bg-primary-foreground hover:text-foreground text-lg">
                   Search
                   <CiSearch />
                 </Button>

@@ -146,21 +146,30 @@ export const FeaturedProductionData = [
 export const featuredCardData = [
   {
     title: "Luxury Suite Villa",
-    location: "Los Angeles City, CA, USA",
+    name: "Jhon Doe",
+    location: "Gulshan, Dhaka, Bangladesh",
     price: 49999,
+    customerPhoto: "/profile/customer-1.png",
     facilities: { bed: 12, bath: 16, area: 800 },
+    coordinates: { lat: 23.7925, lng: 90.4078 }, // Gulshan, Dhaka
   },
   {
     title: "Oceanfront Penthouse",
-    location: "Miami Beach, FL, USA",
+    name: "Jhon Doe",
+    location: "Cox’s Bazar, Bangladesh",
     price: 70000,
+    customerPhoto: "/profile/customer-2.png",
     facilities: { bed: 8, bath: 10, area: 1200 },
+    coordinates: { lat: 21.4272, lng: 92.0058 }, // Cox’s Bazar Beach
   },
   {
     title: "Mountain View Mansion",
-    location: "Aspen, CO, USA",
+    name: "Jhon Doe",
+    location: "Sajek Valley, Rangamati, Bangladesh",
     price: 950000,
+    customerPhoto: "/profile/customer-3.png",
     facilities: { bed: 10, bath: 12, area: 1500 },
+    coordinates: { lat: 23.381, lng: 92.2938 }, // Sajek Valley, Rangamati
   },
 ];
 
