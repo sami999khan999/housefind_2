@@ -66,7 +66,8 @@ const FeaturedCart = ({ item }: { item: Property }) => {
                 <LuBath size={20} /> x{item.facilities.bath}
               </div>
               <div className="flex items-center justify-center gap-2 border rounded-full w-fit px-4 py-2 cursor-pointer">
-                <BsTextarea size={20} /> {item.facilities.area} sq
+                <BsTextarea size={20} /> {item.facilities.area}{" "}
+                <span className="hidden 640p:block">sq</span>
               </div>
             </div>
           </div>

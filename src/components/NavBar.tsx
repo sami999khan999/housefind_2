@@ -63,7 +63,7 @@ const Navbar = () => {
             <div className="ceperator h-[30px]"></div>
 
             {/* View Listing Button */}
-            <Button className="flex items-center justify-center text-primary-foreground px-6 py-7 text-base gap-3 hover:bg-primary-foreground">
+            <Button className="flex items-center justify-center text-primary-foreground px-6 py-7 text-base gap-3 hover:bg-primary-foreground hover:text-foreground">
               <p>View Listing</p>
               <RiArrowRightUpFill className="inline-block w-10 h-10" />
             </Button>

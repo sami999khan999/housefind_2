@@ -129,7 +129,7 @@
 
 @layer components {
   .padding-x {
-    @apply 1080p:w-[1408px] 1080p:p-0 640p:w-[1200px] 640p:p-0 320p:px-[10px];
+    @apply 1080p:w-[1408px] 1080p:p-0 640p:w-[1200px] 640p:p-0 320p:px-[10px] 320p:w-full;
   }
 
   .ceperator {

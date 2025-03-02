@@ -210,24 +210,36 @@ export const propertyLocationData = [
 
 export const feedbackData = [
   {
-    name: "Emily Johnson",
+    name: "Sheldon Jackson",
+    position: "Shop Store Owner",
+    stars: 4,
+    photo: "/profile/customer-1.png",
     feedback:
-      "This platform has completely transformed the way I manage my real estate listings. The user interface is intuitive, and the support team is always ready to help.",
+      "From start to finish, the team was exceptional. They listened to our needs, provided expert guidance, and helped us find exactly what we were looking for. I got the best deal possible! Highly recommended!",
   },
   {
-    name: "Michael Williams",
+    name: "Emily Carter",
+    position: "Real Estate Agent",
+    stars: 5,
+    photo: "/profile/customer-2.png",
     feedback:
-      "I have used several real estate services before, but none compare to this. The seamless experience and detailed property insights make a huge difference.",
+      "Absolutely great service! The team was knowledgeable, responsive, and made the entire process seamless. There was a slight delay in communication, but overall, I’m thrilled with the results!",
+  },
+  {
+    name: "Michael Roberts",
+    position: "Software Engineer",
+    stars: 3,
+    photo: "/profile/customer-3.png",
+    feedback:
+      "A top-notch experience! The support was outstanding, and they made sure every detail was perfect. The team was patient, professional, and truly cared about delivering the best outcome. I couldn’t be happier!",
   },
   {
     name: "Sophia Martinez",
+    position: "Interior Designer",
+    stars: 4,
+    photo: "/profile/customer-1.png",
     feedback:
-      "Absolutely love the design and ease of use! I was able to find my dream home within days, thanks to the smart recommendations.",
-  },
-  {
-    name: "Daniel Lee",
-    feedback:
-      "Highly recommended! The filtering options are top-notch, and I appreciate how quickly I could connect with sellers.",
+      "Fantastic experience! They understood my vision, provided valuable insights, and made the process stress-free. There was a small hiccup with timing, but everything was resolved quickly. Highly satisfied!",
   },
 ];
 
@@ -247,5 +259,20 @@ export const expertData = [
   {
     name: "Olivia Thompson",
     position: "Lead Engineer",
+  },
+];
+
+export const latestBlogPostData = [
+  {
+    date: "2024-12-08",
+    title: "5 Tips to Find Your Dream Home Without Stress: Know Your Budget",
+  },
+  {
+    date: "2024-11-20",
+    title: "Understanding Mortgage Rates: What Every Homebuyer Should Know",
+  },
+  {
+    date: "2024-10-15",
+    title: "How to Choose the Perfect Neighborhood for Your Family",
   },
 ];
